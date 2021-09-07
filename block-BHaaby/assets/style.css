@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body
+{
+    line-height: 1.5;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.flex{
+    display: flex;
+}
+
+.card{
+    width: 100%;
+    height: 500px;
+  
+    justify-content: space-between;
+    
+}
+
+dt,h2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+dd{
+    color: black;
+    font-size: 22px;
+    margin-left: 40px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+li{
+    font-size: 23px;
+    font-weight: 500;
+    color: #D4CEA7;
+}
+
+.header{
+    background-color: #F96115;
+    padding: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #D1D8D6;
+    text-transform: capitalize;
+    margin-right: 50px;
+    
+}
+.nav-ul{
+    width: 100%;
+ 
+    justify-content: space-between;
+}
+
+.main{
+    background-color: #D4CEA7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ol{
+    list-style: decimal;
+}
+
+.card-1,.card-2,.card-3{
+    width: 30%;
+    padding: 50px;
+
+    background-color: #005979;
+    box-shadow: 10px 10px 20px 5px #524d3e;
+}
+
+.card-2 ul{
+    list-style: disc;
+}
+.card-2 ol{
+    
+    list-style: decimal;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+.card-2 .Menu-1{
+    margin-left: 20px;
+    list-style: square;
+    list-style-position: inside;
+}
+ 
+.card-3 ol{
+    list-style: none;
+    
+    
+    
+    
+}
+.shift{
+    margin-left: 20px;
+}
+
+
+.article{
+    margin-top: 20px;
+    padding-top: 50px;
+}
+.footer{
+    background-color: #252C22;
+    padding: 60px 0;
+  
+}
+.footer ul li a{
+    color: #D1D8D6;
+    margin-right: 50px;
+}
